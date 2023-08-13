@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&display=swap');
 body{background-color: #9BA4B5;}
 
 #currents{
@@ -10,8 +10,19 @@ body{background-color: #9BA4B5;}
 }
 
 @media screen and (max-width: 400px) {
-    #currents{
-        width: auto;
-        font-size: auto;
+    #current{
+        margin-left: 5%;
+        padding-left: 5%;
+        background-color: black;
+    }
+
+    .data {
+        font-family: 'Borel', cursive;
+        font-size: 30%;
+      }
+    .data input{
+        width: 90%;
+        font-size: 70%;
+        color: rgb(94, 48, 48);
     }
 }
