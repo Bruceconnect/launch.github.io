@@ -8,3 +8,10 @@ body{background-color: #9BA4B5;}
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
 }
+
+@media screen and (max-width: 400px) {
+    #currents{
+        width: auto;
+        font-size: auto;
+    }
+}
