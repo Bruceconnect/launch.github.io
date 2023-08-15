@@ -32,13 +32,3 @@ function currentcalc(event){
         
     };
     
-
-function sizeadjuste(){
-    const w = window.innerWidth;
-    const h = window.innerHeight;
-    document.getElementById('demo').style.height = h;
-    console.log(h)
-    document.getElementById('demo').innerHTML = 'hello'
-}
-   
-sizeadjuste()
